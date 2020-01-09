@@ -4,7 +4,7 @@ window.onload = function () {
 
     // DO NOT CHANGE THIS
     let myLiffId = "";
-    
+
     // if node is used, fetch the environment variable and pass it to the LIFF method
     // otherwise, pass defaultLiffId
     if (useNodeJS) {
@@ -105,7 +105,7 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://line.me',
+            url: 'https://finscraft.herokuapp.com/',
             external: true
         });
     });
