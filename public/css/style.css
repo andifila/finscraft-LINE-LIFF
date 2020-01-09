@@ -2,6 +2,13 @@ html {
     font-size: 11px;
 }
 
+body {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat';
+}
+
 table {
     width: 100%;
     overflow-x: auto;
@@ -17,9 +24,9 @@ th {
     text-align: left;
 }
 
-img { 
-    max-width: 25%; 
-    height: auto; 
+img {
+    max-width: 25%;
+    height: auto;
 }
 
 button {
@@ -55,4 +62,3 @@ button {
 .hidden {
     display: none;
 }
-

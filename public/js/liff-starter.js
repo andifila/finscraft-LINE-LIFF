@@ -1,7 +1,7 @@
 window.onload = function () {
     const useNodeJS = true; // if you are not using a node server, set this value to false
     const defaultLiffId = "1653744469-ERqLZgXB"; // change the default LIFF value if you are not using a node server
-
+    
     // DO NOT CHANGE THIS
     let myLiffId = "";
 
@@ -102,7 +102,7 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://catatanliffv2.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
+            url: 'https://finscraft.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
             external: true
         });
     });
